@@ -8,6 +8,7 @@ class SoapCourseManagementApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }

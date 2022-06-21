@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<GetCourseDetail xmlns="http://in28minutes.com/courses">
-    <id>123</id> <!-- only numbers -->
-</GetCourseDetail>
+
+<GetCourseDetailRequest xmlns="http://in28minutes.com/courses"
+                        xsi:schemaLocation="http://in28minutes.com/courses course-detail.xsd"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>123</id>  <!--only numbers -->
+</GetCourseDetailRequest>
