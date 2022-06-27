@@ -77,6 +77,13 @@
 						<!-- The package of your generated sources -->
 						<packageName>com.example.myschema</packageName>
 					</configuration>
+					<dependencies>
+						<dependency>
+							<groupId>javax.activation</groupId>
+							<artifactId>activation</artifactId>
+							<version>1.1.1</version>
+						</dependency>
+					</dependencies>
 				</plugin>
 		</plugins>
 	</build>
